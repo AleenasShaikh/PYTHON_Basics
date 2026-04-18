@@ -25,10 +25,20 @@ def printevenno():
         
         print(c)
 
+def print_oddno():
+    d = 1
+    while d < 167:
+        print(d)
+        d = d + 2
+
+def print_1to100():
+    for i in range(10):
+        i+=1
+        print(i)
 
 
 # print_number1()
 # print_numbers()
-printevenno()
-
-
+# printevenno()
+# print_oddno()
+# print_1to100()
